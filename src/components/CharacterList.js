@@ -7,7 +7,7 @@ const CharacterList = ({characters})=>{
              characters.map((item, index)=>(
              <div key={index} className="col mb-4">
                 <div className="card bg-secondary" style={{minWidth: "200px"}}> 
-                   <img src={item.image} />
+                   <img src={item.image} alt='img' />
                    <div className='card-body' >
                         <h5 className='card-title'>{item.name}</h5>
                         <hr/>
